@@ -2,42 +2,41 @@ import React from "react";
 
 export default function TermsAndConditions() {
   return (
-    <div className="min-h-screen   py-12 px-6 md:px-20">
-      <div className="max-w-5xl mx-auto  shadow-lg rounded-2xl p-8 md:p-12">
+    <div className="min-h-screen py-12 px-6 md:px-20">
+      <div className="max-w-5xl mx-auto shadow-lg rounded-2xl p-8 md:p-12">
         <h1 className="text-3xl md:text-4xl font-bold text-center text-blue-700 mb-4">
           Terms and Conditions
         </h1>
 
         <p className="text-sm text-gray-500 text-center mb-6">
-          Effective Date: October 5, 2025
+          Hire Apex HR Consultancy
         </p>
 
         <div className="space-y-3 mb-6">
           <p>
-            <strong>Company Name:</strong> Optifusion Technologies
+            <strong>Company Name:</strong> Hire Apex HR Consultancy
           </p>
           <p>
-            <strong>Registered Address:</strong> 267 B, Sindhi Colony, Raja Park,
-            Jaipur, Rajasthan – 302004, India
+            <strong>Registered Address:</strong> 267 B, Sindhi Colony, Raja Park, Jaipur, Rajasthan – 302004, India
           </p>
           <p>
             <strong>Contact Email:</strong>{" "}
             <a
-              href="mailto:business@optifusiontechnologies.com"
+              href="mailto:business@hireapex.in"
               className="text-blue-600 hover:underline"
             >
-              business@optifusiontechnologies.com
+              business@hireapex.in
             </a>
           </p>
           <p>
             <strong>Website:</strong>{" "}
             <a
-              href="https://www.optifusiontechnologies.com"
+              href="https://www.hireapex.in"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              www.optifusiontechnologies.com
+              www.hireapex.in
             </a>
           </p>
         </div>
@@ -47,28 +46,17 @@ export default function TermsAndConditions() {
         <section className="space-y-6">
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">1. Introduction</h2>
-
             <div className="mt-3 space-y-3">
               <div>
                 <h3 className="text-lg font-medium">Acceptance of Terms</h3>
                 <p>
-                  These Terms and Conditions (“Terms”) constitute a legally binding
-                  agreement between the Client (“You,” “Your,” or “Client”) and
-                  Optifusion Technologies (“Company,” “We,” “Us,” or “Our”), governing
-                  your access to and use of our recruitment consultancy services and
-                  website. By engaging our services, paying invoices, or using our
-                  website, you agree to comply with these Terms. If you do not agree,
-                  please refrain from using our services.
+                  These Terms and Conditions (“Terms”) constitute a legally binding agreement between the Client (“You,” “Your,” or “Client”) and Hire Apex HR Consultancy (“Company,” “We,” “Us,” or “Our”). By engaging our recruitment services, making payments, or using our website, you agree to be bound by these Terms. If you do not agree, please refrain from using our services.
                 </p>
               </div>
-
               <div>
                 <h3 className="text-lg font-medium">Modification of Terms</h3>
                 <p>
-                  Optifusion Technologies reserves the right to update, modify, or
-                  amend these Terms at any time. Any such changes will be reflected on
-                  our website, and continued use of our services will be deemed
-                  acceptance of the updated Terms.
+                  Hire Apex HR Consultancy reserves the right to modify or update these Terms at any time. Any changes will be reflected on our website, and continued use of services shall be considered acceptance of the revised Terms.
                 </p>
               </div>
             </div>
@@ -78,19 +66,13 @@ export default function TermsAndConditions() {
             <h2 className="text-2xl font-semibold text-blue-700">2. Scope of Services</h2>
             <div className="mt-3 space-y-3">
               <p>
-                Optifusion Technologies provides professional recruitment consultancy
-                and talent acquisition solutions, including candidate sourcing,
-                screening, shortlisting, interview coordination, and talent reporting.
+                Hire Apex HR Consultancy provides professional recruitment and talent acquisition services, including candidate sourcing, screening, shortlisting, interview coordination, hiring support, and recruitment reporting.
               </p>
               <p>
-                Optifusion Technologies does not charge any fees from candidates or job
-                seekers. All payments are made solely by client organizations using our
-                services.
+                We do not charge any fees to candidates or job seekers. All service fees are payable solely by client organizations.
               </p>
               <p>
-                Clients may subscribe to service plans (Monthly, Quarterly, or Annual)
-                as published on our website or provided via proposal or invoice. Each
-                plan outlines the scope, limits, and recruiter support provided.
+                Services are delivered under a pay-per-candidate engagement model, with pricing dependent on role type, complexity, and hiring requirements, as communicated through proposals or invoices.
               </p>
             </div>
           </div>
@@ -99,23 +81,13 @@ export default function TermsAndConditions() {
             <h2 className="text-2xl font-semibold text-blue-700">3. Payments and Refunds</h2>
             <div className="mt-3 space-y-3">
               <p>
-                All payments must be made in advance before service commencement.
-                Accepted payment methods include UPI and Bank Transfer. An official
-                invoice shall be issued for every transaction. Services commence only
-                after full payment confirmation.
+                All payments must be made in advance before the commencement of services. Accepted payment methods include UPI and bank transfer. An official invoice will be issued for every transaction.
               </p>
               <p>
-                If no hiring is completed during the subscription period, the client may
-                request a refund. If partial hiring has been done, Optifusion
-                Technologies shall deduct a proportional service charge based on the
-                number of successful hires before processing the refund. Refunds, if
-                approved, shall be processed within fourteen (14) business days of
-                written confirmation from both parties.
+                Services begin only after payment confirmation. Payments made for shortlisted candidates are non-refundable once candidate profiles have been shared, except in cases of service non-delivery.
               </p>
               <p>
-                In case of non-payment, delayed payment, or payment reversal,
-                Optifusion Technologies reserves the right to suspend services,
-                withhold candidate data, or terminate the agreement without liability.
+                In the event of non-payment, delayed payment, or payment reversal, Hire Apex HR Consultancy reserves the right to suspend services, withhold candidate data, or terminate the engagement without liability.
               </p>
             </div>
           </div>
@@ -124,39 +96,28 @@ export default function TermsAndConditions() {
             <h2 className="text-2xl font-semibold text-blue-700">4. Hiring and Replacement Policy</h2>
             <div className="mt-3 space-y-3">
               <p>
-                Once a candidate provided by Optifusion Technologies is hired by the
-                Client, the Client must notify the Company within forty-eight (48) hours
-                of selection.
+                The Client must inform Hire Apex HR Consultancy within forty-eight (48) hours of candidate selection or hiring.
               </p>
               <p>
-                Optifusion Technologies offers a fifteen (15)-day replacement period for
-                hired candidates. If a candidate resigns or is terminated within 15
-                days, a replacement candidate shall be provided at no additional cost.
+                Hire Apex HR Consultancy provides a two (2) month replacement period from the candidate’s joining date. If the hired candidate resigns or is terminated within this period, one replacement candidate will be provided at no additional service fee.
               </p>
-              <p>
-                The replacement policy does not apply if the Client changes the job
-                profile or salary range, terminates employment for reasons unrelated to
-                performance, or delays interviews beyond agreed timelines.
-              </p>
+              <p>The replacement policy shall not apply if:</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>The job role, responsibilities, or salary structure is changed</li>
+                <li>Termination is for reasons unrelated to performance or role suitability</li>
+                <li>Interviews or offer issuance are delayed beyond agreed timelines</li>
+                <li>The candidate declines due to internal client-side changes</li>
+              </ul>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">5. Client Obligations</h2>
             <div className="mt-3 space-y-3">
+              <p>The Client must provide accurate, complete, and updated job requirements and company details.</p>
+              <p>The Client must share timely feedback to maintain efficient hiring timelines.</p>
               <p>
-                The Client must provide accurate, complete, and updated information
-                regarding job roles, requirements, and company details.
-              </p>
-              <p>
-                The Client must provide timely feedback on shortlisted candidates to
-                maintain efficient hiring timelines.
-              </p>
-              <p>
-                Clients are prohibited from directly approaching or hiring candidates
-                introduced by Optifusion Technologies outside the contractual scope,
-                during or within six (6) months after the engagement period. Breach of
-                this clause shall result in a penalty equal to the applicable hiring fee.
+                Clients are prohibited from directly or indirectly hiring, approaching, or engaging any candidate introduced by Hire Apex HR Consultancy outside the agreed scope during the engagement period and for six (6) months thereafter. Any breach will attract a penalty equivalent to the applicable service fee.
               </p>
             </div>
           </div>
@@ -164,111 +125,63 @@ export default function TermsAndConditions() {
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">6. Confidentiality</h2>
             <div className="mt-3 space-y-2">
-              <p>
-                Both parties agree to maintain strict confidentiality over all shared
-                information, including candidate resumes, interview feedback, and
-                business data.
-              </p>
-              <p>
-                Optifusion Technologies will use client-provided data solely for
-                fulfilling recruitment services and will not disclose it to third parties
-                without consent, except as required by law.
-              </p>
+              <p>Both parties agree to maintain strict confidentiality of all shared information, including candidate resumes, feedback, and business data.</p>
+              <p>All information will be used solely for recruitment purposes and will not be disclosed to third parties without consent, except where required by law.</p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">7. Limitation of Liability</h2>
             <div className="mt-3 space-y-2">
-              <p>
-                Optifusion Technologies shall not be liable for any indirect,
-                consequential, or incidental damages arising from the use or inability to
-                use its services.
-              </p>
-              <p>
-                The Company shall not be held responsible for the future performance,
-                behavior, or retention of hired candidates once employment is confirmed.
-              </p>
-              <p>
-                Our total liability shall not exceed the total service fee paid by the
-                Client under the specific engagement.
-              </p>
+              <p>Hire Apex HR Consultancy shall not be liable for any indirect, incidental, or consequential damages arising from the use of its services.</p>
+              <p>We do not guarantee future performance, conduct, or retention of hired candidates after joining.</p>
+              <p>Total liability, if any, shall not exceed the service fee paid by the Client for the specific engagement.</p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">8. Intellectual Property</h2>
             <div className="mt-3 space-y-2">
-              <p>
-                All website content, designs, logos, communication templates, and
-                materials shared by Optifusion Technologies are its intellectual property.
-              </p>
-              <p>
-                Clients may not reproduce, distribute, or modify any materials without
-                prior written consent.
-              </p>
+              <p>All website content, branding, designs, communication templates, and materials shared by Hire Apex HR Consultancy remain its intellectual property.</p>
+              <p>No content may be copied, reproduced, or distributed without prior written consent.</p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">9. Indemnity</h2>
             <p className="mt-3">
-              The Client agrees to indemnify and hold harmless Optifusion Technologies,
-              its directors, and employees from any claims, losses, or damages arising
-              due to misuse of services, breach of terms, or violation of applicable laws.
+              The Client agrees to indemnify and hold harmless Hire Apex HR Consultancy, its owners, representatives, and employees from any claims, losses, or damages arising from misuse of services, breach of these Terms, or violation of applicable laws.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold text-blue-700">10. Termination of Service</h2>
+            <h2 className="text-2xl font-semibold text-blue-700">10. Termination of Services</h2>
             <div className="mt-3 space-y-2">
-              <p>
-                The Client may terminate services by providing written notice. Any refund
-                eligibility will be governed by the Payments and Refunds clause.
-              </p>
-              <p>
-                Optifusion Technologies may terminate services immediately in case of
-                breach of these Terms, non-payment, or misuse of candidate data.
-              </p>
+              <p>The Client may terminate services by providing written notice. Any refund or service continuation shall be governed by the Payments and Replacement clauses.</p>
+              <p>Hire Apex HR Consultancy reserves the right to terminate services immediately in case of breach, misuse of candidate data, or non-payment.</p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">11. Dispute Resolution and Jurisdiction</h2>
             <div className="mt-3 space-y-2">
-              <p>
-                In case of any dispute, both parties shall first attempt to resolve the
-                issue amicably through mutual discussion. If unresolved, the dispute
-                shall be referred to a sole arbitrator appointed mutually, in accordance
-                with the Arbitration and Conciliation Act, 1996.
-              </p>
-              <p>
-                This Agreement shall be governed by and construed in accordance with the
-                laws of India. All disputes shall fall under the exclusive jurisdiction
-                of the courts in Jaipur, Rajasthan, India.
-              </p>
+              <p>Both parties shall attempt to resolve disputes amicably through mutual discussion. If unresolved, disputes shall be referred to a sole arbitrator appointed mutually, in accordance with the Arbitration and Conciliation Act, 1996.</p>
+              <p>These Terms shall be governed by the laws of India. Courts in Jaipur, Rajasthan shall have exclusive jurisdiction.</p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold text-blue-700">12. Miscellaneous</h2>
             <div className="mt-3 space-y-2">
+              <p>If any provision of these Terms is held invalid, the remaining provisions shall remain enforceable.</p>
+              <p>These Terms constitute the entire agreement between the Client and Hire Apex HR Consultancy and supersede all prior discussions or communications.</p>
               <p>
-                If any provision of this Agreement is held invalid, the remaining provisions
-                shall remain enforceable.
-              </p>
-              <p>
-                These Terms represent the entire agreement between the Client and
-                Optifusion Technologies and supersede any prior discussions or proposals.
-              </p>
-              <p>
-                For any queries or concerns regarding these Terms, please contact:
-                <br />
+                For any queries or concerns, please contact: <br />
                 <a
-                  href="mailto:business@optifusiontechnologies.com"
+                  href="mailto:business@hireapex.in"
                   className="text-blue-600 hover:underline"
                 >
-                  business@optifusiontechnologies.com
+                  business@hireapex.in
                 </a>
                 <br />
                 267 B, Sindhi Colony, Raja Park, Jaipur, Rajasthan – 302004
@@ -276,12 +189,6 @@ export default function TermsAndConditions() {
             </div>
           </div>
         </section>
-
-        <hr className="my-8" />
-
-        <p className="text-gray-600 mt-4 text-sm">
-          © 2025 Optifusion Technologies. All Rights Reserved.
-        </p>
       </div>
     </div>
   );

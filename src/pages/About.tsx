@@ -35,7 +35,7 @@ const About = () => {
     {
      year: "2024",
       title: "Establishing Foundations",
-      description: "Optifusion Technologies was founded with a clear vision: to deliver dependable, efficient, and scalable recruitment solutions. From the very beginning, our approach emphasized structured processes, measurable outcomes, and building lasting trust with every client. These principles created a strong foundation for sustainable growth and strategic expansion."
+      description: "HireApex was founded with a clear vision: to deliver dependable, efficient, and scalable recruitment solutions. From the very beginning, our approach emphasized structured processes, measurable outcomes, and building lasting trust with every client. These principles created a strong foundation for sustainable growth and strategic expansion."
     },
     {
       year: "2024",
@@ -50,7 +50,7 @@ const About = () => {
     {
       year: "2025",
       title: "Ongoing Growth and Recognition",
-      description: "As 2025 progresses, Optifusion Technologies continues to solidify its market presence. Returning clients, ongoing projects, and positive endorsements highlight our consistent performance, positioning the company as a trusted and respected name in recruitment services."
+      description: "As 2025 progresses, HireApex continues to solidify its market presence. Returning clients, ongoing projects, and positive endorsements highlight our consistent performance, positioning the company as a trusted and respected name in recruitment services."
     }
   ];
 
@@ -136,7 +136,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center" data-aos="fade-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text " >
-              About  Optifusion Technologies
+              About  HireApex
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 " style={{ animationDelay: '0.2s' }} data-aos="zoom-in">
               Founded in 2024, we're transforming the HR landscape with innovative solutions 

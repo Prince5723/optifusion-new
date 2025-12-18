@@ -117,20 +117,28 @@ const scrollRef = useRef(null);
     <source src={bgVideo} type="video/webm" />
   
   </video>
-
-  {/* Hero Content */}
-  <div className="container mx-auto px-6 text-center relative z-10">
-    <div
-      className={`transition-all duration-1000 ${
-        isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-      } flex flex-col justify-center items-center`}
-    >
-            <div className="w-1000 h-1000  rounded-lg flex items-center justify-center">
-              <img src={logo} alt=""  width={1000} height={100}/>
-            </div>
-
+{/* Hero Content */}
+<div className="container mx-auto px-6 text-center relative z-10">
+  <div
+    className={`transition-all duration-1000 ${
+      isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+    } flex flex-col justify-center items-center`}
+  >
+    <div className="w-full w-[400px] sm:w-[600px] md:w-[1000px] rounded-lg flex flex-col items-center justify-center">
+      <img 
+        src={logo} 
+        alt="HireApex Logo"  
+        className="w-full h-auto"
+      />
+      <p className=" text-center text-gray-200 text-base sm:text-lg md:text-xl font-light px-12 md:px-0 leading-snug">
+        Delivering reliable talent acquisition solutions 
+        that help businesses build stronger, more effective teams
+      </p>
     </div>
   </div>
+</div>
+
+
 </section>
 
 

@@ -45,25 +45,26 @@ const Services = () => {
         "Complete interview coordination and onboarding assistance.",
         "Personalized WhatsApp and phone support across the entire hiring lifecycle.",
       ],
-      details: {
-        process:
-          "Our talent acquisition team manages the full hiring lifecycle, aligning speed, quality, and cultural fit to deliver reliable candidates.",
-        benefits: [
-          "Faster time-to-hire with priority sourcing.",
-          "High-quality shortlists through multi-level screening.",
-          "Lower hiring costs than traditional agencies.",
-          "Improved long-term retention.",
-          "Scalable hiring aligned to your growth.",
-          "Expertise across multiple domains.",
-          "Consistent communication and transparency.",
-        ],
-      },
+     details: {
+  process:
+    "Our talent acquisition team manages the full hiring lifecycle, aligning speed, quality, and cultural fit to deliver reliable candidates.",
+  benefits: [
+    "Reduce time-to-hire through rapid candidate delivery and streamlined coordination.",
+    "Enhance candidate quality through detailed shortlisting, screening, and role-based assessments.",
+    "Achieve significant cost efficiency compared to traditional recruitment consultancies.",
+    "Improve retention outcomes through culture-fit evaluation and long-term suitability checks.",
+    "Scale your recruitment needs with a flexible engagement model aligned to hiring volume.",
+    "Leverage domain expertise across Finance, Retail, Marketing, BPO, and IT sectors.",
+    "Benefit from priority shortlisting and enhanced candidate visibility to close positions faster."
+  ],
+},
+
     },
   ];
 
 const faqs = [
   {
-    question: "What makes Optifusion Technologies different from other recruitment agencies?",
+    question: "What makes HireApex different from other recruitment agencies?",
     answer:
       "We focus on quality over volume. Our process combines targeted sourcing, structured screening, culture-fit evaluation, and dedicated hiring support to ensure you receive relevant, job-ready candidates instead of random profiles."
   },
@@ -165,32 +166,36 @@ const faqs = [
                   </Card>
 
                   {/* Right Card */}
-                  <Card className="glass hover-lift h-full">
-                    <CardContent className="p-8 flex flex-col h-full">
-                      <h3 className="text-3xl font-bold mb-4 gradient-text">
-                        How It Works
-                      </h3>
+{/* Right Card */}
+<Card className="glass hover-lift h-full">
+  <CardContent className="p-8 flex flex-col h-full">
+    {/* Top Icon */}
+    <Brain className="w-16 h-16 text-primary mb-6 mx-auto" />
 
-                      <p className="text-lg text-muted-foreground mb-6">
-                        {service.details.process}
-                      </p>
+    <h3 className="text-3xl font-bold mb-4 gradient-text text-center">
+      How It Works
+    </h3>
 
-                      <h4 className="text-xl font-semibold mb-4">
-                        Key Benefits
-                      </h4>
+    <p className="text-lg md:text-xl text-muted-foreground mb-6">
+      {service.details.process}
+    </p>
 
-                      <div className="space-y-3 text-lg flex-1">
-                        {service.details.benefits.map((benefit, i) => (
-                          <div key={i} className="flex items-start">
-                            <TrendingUp className="w-5 h-5 text-secondary mr-3 mt-1" />
-                            <span className="text-muted-foreground">
-                              {benefit}
-                            </span>
-                          </div>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
+    <h4 className="text-2xl font-semibold mb-4 text-center">
+      Key Benefits
+    </h4>
+
+    <div className="space-y-4 text-lg md:text-xl flex-1">
+      {service.details.benefits.map((benefit, i) => (
+        <div key={i} className="flex items-start">
+          <Zap className="w-6 h-6 text-secondary mr-3 mt-1" />
+          <span className="text-muted-foreground">{benefit}</span>
+        </div>
+      ))}
+    </div>
+  </CardContent>
+</Card>
+
+
                 </div>
               </TabsContent>
             ))}
