@@ -10,6 +10,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Partners from '../components/Partners'
 import { Link } from "react-router-dom";
 import bgVideo from '../../public/companyLogo/hero_video_loop.webm';
+import logo from '../assets/hireapex-logo-removebg-preview.png'
+
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -123,36 +125,10 @@ const scrollRef = useRef(null);
         isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       } flex flex-col justify-center items-center`}
     >
-      <h1 className="text-5xl md:text-8xl font-bold mb-6 gradient-text animate-gradient">
-        Optifusion Technologies
-      </h1>
-      <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-        Transform your workforce with AI-powered HR solutions that drive growth,
-        enhance productivity, and create exceptional employee experiences.
-      </p>
+            <div className="w-1000 h-1000  rounded-lg flex items-center justify-center">
+              <img src={logo} alt=""  width={1000} height={100}/>
+            </div>
 
-      <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 mb-8 md:mb-12 px-4">
-        <div>
-          <button
-            onClick={handleWhatsApp}
-            className="w-full bg-gradient-to-r from-indigo-500 to-blue-500 
-             hover:from-indigo-600 hover:to-indigo-300 text-white font-bold 
-             px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl transform ease-in-out duration-3000
-             hover:scale-105 hover:shadow-lg hover:shadow-gray-600
-             flex items-center justify-center gap-2 animate-slowbounce"
-          >
-            Book Free Demo
-            <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-1" />
-          </button>
-        </div>
-
-        <Link to="/watchdemo" className="w-full sm:w-auto">
-          <button className="w-full btn-glass backdrop-blur-sm text-gray-800 font-bold px-6 md:px-8 py-3 md:py-4 rounded-xl md:rounded-2xl transition-all duration-300 hover:shadow-lg flex items-center justify-center gap-2 transform hover:scale-105 outline-none hover:shadow-gray-600">
-            <Play className="w-4 h-4 md:w-5 md:h-5" />
-            Watch Demo
-          </button>
-        </Link>
-      </div>
     </div>
   </div>
 </section>
@@ -163,11 +139,10 @@ const scrollRef = useRef(null);
         <div className="container mx-auto px-6">
           <div className="text-center mb-16" >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text" data-aos='zoom-in' >
-              Why Choose  Optifusion Technologies?
+              Why Choose  HireApex?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-aos='slide-right'>
-              hiring the right talent is vital to your success. We take the time to understand your company’s culture, values, and goals to connect you with candidates who are skilled and align with your unique work environment. This approach helps build engaged, cohesive teams that support long-term growth.
-Our transparent and collaborative process keeps you informed at every stage. By prioritizing quality and fit over quantity, we help you make confident hiring decisions tailored to your evolving needs. Partner with Optifusion for personalized talent acquisition solutions that keep your business competitive in today’s fast-changing market
+              Hiring the right talent is vital to your success. We take the time to understand your company’s culture, values, and goals to connect you with candidates who are skilled and aligned with your unique work environment. This approach helps build engaged, cohesive teams that support long-term growth. Our transparent and collaborative process keeps you informed at every stage. By prioritizing quality and fit over quantity, we help you make confident hiring decisions tailored to your evolving needs. Partner with Hireapex for personalized talent acquisition solutions that keep your business competitive in today’s fast-changing market.
             </p>
           </div>
 
@@ -263,7 +238,7 @@ Our transparent and collaborative process keeps you informed at every stage. By 
         </div>
       </section>
       {/* Newsletter Signup */}
-      <section className="py-24 bg-muted/20">
+      {/* <section className="py-24 bg-muted/20">
         <div className="container mx-auto px-6">
           <Card className="glass max-w-4xl mx-auto  " data-aos="fade-up">
             <CardContent className="p-12 text-center">
@@ -285,7 +260,7 @@ Our transparent and collaborative process keeps you informed at every stage. By 
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

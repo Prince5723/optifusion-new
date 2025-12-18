@@ -33,19 +33,20 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+91 9928610677", , "Mon - Fri 9AM-6PM PST"],
+      details: ["+91 8233897557", , "Mon - Sat 10AM-6PM PST"],
       action: "Call Now"
     },
     {
       icon: Mail,
       title: "Email Addresses",
-      details: ["Info@optifusiontechnologies.com", "Hr@optifusiontechnologies.com", "Founder@optifusiontechnologies.com"],
+      details: ["Business@optifusiontechnologies.com", "Hr@optifusiontechnologies.com"],
       action: "Send Email"
+      
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM", "Sunday: Closed"],
+      details: ["Monday - Saturday: 10AM - 6PM",  "Sunday: Closed"],
       action: "Schedule Call"
     }
   ];
@@ -191,7 +192,7 @@ const handleSubmit = async (e) => {
                   <a
                     href={
                       info.action === "Call Now"
-                        ? "tel:+919928610677"
+                        ? "tel:+918233897557"
                         : info.action === "Get Directions"
                         ? "https://maps.app.goo.gl/rw6Q6fgnP6zdXNpaA"
                         : info.action === "Send Email"

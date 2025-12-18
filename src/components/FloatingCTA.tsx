@@ -20,7 +20,10 @@ export const FloatingCTA = () => {
 
   
   const handleWhatsApp = ()=>{
-    window.open("https://wa.me/919928610677?text=Hi!%20interested%20in%20exploring%20your%20talent%20acquisition%20services.%20I%20would%20like%20to%20book%20a%20free%20demo%20and%20see%20a%20few%20candidate%20profiles.%20Can%20we%20schedule%20it%3F", "_blank")
+window.open(
+  "https://wa.me/918233897557?text=Hi%2C%20I%20came%20across%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20recruitment%20and%20hiring%20solutions%20and%20would%20like%20to%20discuss%20our%20hiring%20requirements",
+  "_blank"
+)
   }
   return (
     <div className="fixed bottom-6 right-6 z-40 ">
@@ -28,7 +31,7 @@ export const FloatingCTA = () => {
         <div className="bg-card glass rounded-2xl p-6 shadow-2xl animate-scale-in max-w-sm">
           <div className="flex justify-between items-start mb-4">
             <h3 className="font-semibold text-lg gradient-text">
-              Book Free Consultation
+              Contact Us
             </h3>
             <button
               onClick={() => setIsExpanded(false)}
@@ -43,7 +46,7 @@ export const FloatingCTA = () => {
           <div className="space-y-3 ">
             <Button  onClick={handleWhatsApp} className="w-full btn-primary ">
               <Phone className="w-8 h-8 " />
-              Schedule Call
+              Contact Us
             </Button>
             {/* <Button variant="outline" className="w-full btn-glass">
               Send Message

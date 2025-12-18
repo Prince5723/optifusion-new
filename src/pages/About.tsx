@@ -161,12 +161,12 @@ const About = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="" data-aos="slide-right">
                 <p className="text-lg text-muted-foreground mb-6">
-                  Optifusion Technologies HR was established in 2024 with a straightforward goal: to bring a more effective, reliable approach to human resources consulting. We recognized that businesses today require practical, results-driven HR solutions to attract and retain top talent in a rapidly changing environment.
-                  With a team built on proven HR expertise, we are committed to delivering consistent value to every client. Our strength lies in understanding the specific needs of our partners and providing tailored support throughout the talent acquisition process.
+Hireapex was established in 2024 with a straightforward goal: to bring a more effective and reliable approach to human resources consulting. We recognized that businesses today require practical, results-driven HR solutions to attract and retain top talent in a rapidly changing environment. With a team built on proven HR expertise, we are committed to delivering consistent value to every client. Our strength lies in understanding the specific needs of our partners and providing tailored support throughout the talent acquisition process.
+
 
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
-                 Today, we are proud to work with over 15 organizations across a variety of sectors. Since our inception, we have facilitated more than 500 + successful placements and achieved a client satisfaction rate of 93%. Our focus remains on delivering excellence and building lasting partnerships.
+Today, we are proud to work with over 15 organizations across a variety of sectors. Since our inception, we have facilitated more than 500+ successful placements and achieved a client satisfaction rate of 93%. Our focus remains on delivering excellence and building lasting partnerships.
 
                 </p>
              

@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from '../assets/optifusion-removebg-preview.png'
+import logo from '../assets/hireapex-logo-removebg-preview.png'
 
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
-  { href: "/team", label: "Team" },
+  { href: "/team", label: "Leadership" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -47,21 +47,20 @@ export const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10  rounded-lg flex items-center justify-center">
-              <img src={logo} alt=""  width={50} height={50}/>
+            <div className="w-140 h-140  rounded-lg flex items-center justify-center">
+              <img src={logo} alt=""  width={160} height={150}/>
             </div>
-            <span className="text-xl font-bold gradient-text">Optifusion Technologies</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8 md:pr-16">
+          <div className="hidden lg:flex items-center space-x-10 md:pr-16">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 to={item.href}
-                className={`relative py-2 transition-colors duration-300 ${
+                className={`relative py-3 text-lg md:text-xl transition-colors duration-300 ${
                   location.pathname === item.href
-                    ? "text-primary font-medium"
+                    ? "text-primary font-semibold"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
@@ -98,7 +97,7 @@ export const Navigation = () => {
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`py-3 px-4 rounded-lg transition-colors duration-300 ${
+                  className={`py-3 px-4 rounded-lg text-xl transition-colors duration-300 ${
                     location.pathname === item.href
                       ? "bg-primary/10 text-primary border-l-4 border-primary"
                       : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
