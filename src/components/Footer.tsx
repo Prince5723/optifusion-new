@@ -49,7 +49,7 @@ export const Footer = () => {
               <div className="flex items-center gap-4">
                 <Mail className="w-5 h-5 text-primary" />
                 <span className="text-muted-foreground">
-                  info@optifusiontechnologies.com
+                  business@hireapex.in
                 </span>
               </div>
             </div>
@@ -114,7 +114,7 @@ export const Footer = () => {
                 className="w-11 h-11 p-0 rounded-full btn-glass"
               >
                 <a
-                  href="https://www.linkedin.com/company/optifusion-technologiess/"
+                  href="https://www.linkedin.com/company/HireApex-technologiess/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -128,7 +128,7 @@ export const Footer = () => {
                 className="w-11 h-11 p-0 rounded-full btn-glass"
               >
                 <a
-                  href="https://www.instagram.com/optifusiontechnologies"
+                  href="https://www.instagram.com/HireApextechnologies"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

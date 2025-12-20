@@ -50,14 +50,14 @@ const scrollRef = useRef(null);
       
       name: "Ridhi agarwal",
       role: "Talent Acquisition Manager, VoiceConnect BPO Indore",
-      content: "We had a high volume hiring requirement and Optifusion managed it perfectly Their recruiter provided shortlisted candidates quickly and helped us close positions on time The support and professionalism were consistent from start to end",
+      content: "We had a high volume hiring requirement and HireApex managed it perfectly Their recruiter provided shortlisted candidates quickly and helped us close positions on time The support and professionalism were consistent from start to end",
       rating: 5
     },
     {
 
       name: "Shruti Mehta",
       role: "Senior HR Specialist, DigiPulse Solutions Pvt Ltd Ahmedabad",
-      content: "Optifusion has simplified our entire recruitment process Their recruiter is attentive and always ensures we receive the right profiles for each role We have successfully closed multiple positions with their help in a short span of time",
+      content: "HireApex has simplified our entire recruitment process Their recruiter is attentive and always ensures we receive the right profiles for each role We have successfully closed multiple positions with their help in a short span of time",
       rating: 5
     },
    
@@ -70,31 +70,31 @@ const scrollRef = useRef(null);
     {
       name: "Neha Verma",
       role: "HR Lead, MedAxis Healthcare Pvt Ltd Delhi",
-      content: "Our hospital tied up with Optifusion for operations and admin staff hiring We went with their monthly plan and within the first week we started getting relevant profiles The team is polite and very professional",
+      content: "Our hospital tied up with HireApex for operations and admin staff hiring We went with their monthly plan and within the first week we started getting relevant profiles The team is polite and very professional",
       rating: 5
     },
      {
     "name": "Manoj Iyer",
     "role": "HR Business Partner, BioSure Pharmaceuticals, Mumbai",
-    "content": "The pricing model offered by Optifusion works very well for us. It is cost effective compared to traditional consultancy models and gives us the flexibility to hire multiple roles. Their service quality and timely response make them easy to work with.",
+    "content": "The pricing model offered by HireApex works very well for us. It is cost effective compared to traditional consultancy models and gives us the flexibility to hire multiple roles. Their service quality and timely response make them easy to work with.",
     "rating": 5
   },
   {
     "name": "Nikhil Tiwari",
     "role": "HR Head, BuildRight Realty Pvt Ltd, Gurgaon",
-    "content": "Our company required business development executives and admin roles across multiple cities. Optifusion handled multi-location hiring efficiently. The team coordinated interviews perfectly and provided complete updates throughout.",
+    "content": "Our company required business development executives and admin roles across multiple cities. HireApex handled multi-location hiring efficiently. The team coordinated interviews perfectly and provided complete updates throughout.",
     "rating": 5
   },
   {
     "name": "Shreya Metha",
     "role": "Senior HR Specialist, StyleMart Retail Pvt Ltd, Ahmedabad",
-    "content": "We have been working with Optifusion for over three months now and the experience has been excellent. Their recruiter is proactive and shares relevant candidates very fast. The best part is we can hire as per our need without worrying about extra cost.",
+    "content": "We have been working with HireApex for over three months now and the experience has been excellent. Their recruiter is proactive and shares relevant candidates very fast. The best part is we can hire as per our need without worrying about extra cost.",
     "rating": 5
   },
   {
     "name": "Pooja Iyer",
     "role": "HR Business Partner, FreshVale Consumer Products, Mumbai",
-    "content": "Optifusion has been supporting our sales and distribution hiring for over six months. The recruiter team is responsive and shares strong profiles within timelines. We also find their flat pricing model very reasonable and simple to manage.",
+    "content": "HireApex has been supporting our sales and distribution hiring for over six months. The recruiter team is responsive and shares strong profiles within timelines. We also find their flat pricing model very reasonable and simple to manage.",
     "rating": 5
   }
   ];
@@ -124,16 +124,16 @@ const scrollRef = useRef(null);
       isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
     } flex flex-col justify-center items-center`}
   >
-    <div className="w-full w-[400px] sm:w-[600px] md:w-[1000px] rounded-lg flex flex-col items-center justify-center">
+    <div className="w-full w-[500px] sm:w-[600px] md:w-[1000px] rounded-lg flex flex-col items-center justify-center">
       <img 
         src={logo} 
         alt="HireApex Logo"  
         className="w-full h-auto"
       />
-      <p className=" text-center text-gray-200 text-base sm:text-lg md:text-xl font-light px-12 md:px-0 leading-snug">
+      {/* <p className=" text-center text-gray-200 text-base sm:text-lg md:text-xl font-light px-12 md:px-0 leading-snug">
         Delivering reliable talent acquisition solutions 
         that help businesses build stronger, more effective teams
-      </p>
+      </p> */}
     </div>
   </div>
 </div>
